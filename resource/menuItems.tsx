@@ -3,10 +3,26 @@ export const menuItems =[
     {
         title:"Home",
         url:"/",
+        
+    }, 
+    {
+        title:"Services",
+        url:"/services", 
         submenu:[
             {
                 title:"Web Design", 
-                url:"web-design"
+                url:"web-design", 
+                submenu:[
+                    {
+                        title:"React", 
+                        url:"react"
+                    }, 
+                    {
+                        title:"Wordpress", 
+                        url:"word-press"
+                    }
+
+                ]
             }, 
             {
                 title: "Web Development", 
@@ -15,12 +31,9 @@ export const menuItems =[
             {
                 title:"SEO",
                 url:"seo"
-            }
+            }, 
+            
         ]
-    }, 
-    {
-        title:"Services",
-        url:"/services", 
         
     }, 
     {
