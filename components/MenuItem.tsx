@@ -37,6 +37,7 @@ const MenuItem = ({items, key, depthLevel}:any)=>{
                     </>
                 ):(
                     <a href={items.url}>{items.title}</a>
+                    
                 )
             }
         </li>
